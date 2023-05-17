@@ -20,7 +20,7 @@ Vagrant.configure("2") do |config|
   ansible.install_mode = "pip3"
   #ansible.verbose = "v"
   ansible.pip_install_cmd = "sudo apt-get -y install python3-pip"
-  ansible.inventory_path = "inventory"
+  #ansible.inventory_path = "inventory"
   #ansible.version = "2.7.13"
   ansible.become = true
   #ansible.config_file = "ansible.cfg"
